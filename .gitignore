@@ -1,0 +1,9 @@
+# Backup and temp files
+backup.zip
+*.docx
+*.tmp
+
+# Non-site directories
+extracted_assets/
+reference documents/
+scratch/

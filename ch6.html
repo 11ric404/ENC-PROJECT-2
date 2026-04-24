@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ch 6 · Voice Channels — Discord for Beginners</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script>window.CURRENT_PAGE='ch6';</script>
+<script src="nav.js"></script>
+
+<div class="main">
+  <div class="topbar">
+    <span class="topbar-hash">#</span>
+    <span class="topbar-title">ch-6-voice-channels</span>
+    <div class="topbar-divider"></div>
+    <span class="topbar-desc">Real-time audio communication</span>
+  </div>
+  <div class="content">
+
+    <div class="page-hero">
+      <div class="page-hero-eyebrow">Chapter 6</div>
+      <h1>Using Voice Channels</h1>
+      <p>You have likely encountered voice and video communication platforms like Zoom and Microsoft Teams. Discord's <a href="glossary.html#voice-channel">voice channels</a> offer the same capabilities, minus the need for manually scheduling calls in advance. In this chapter you'll learn how to join voice channels and utilize them for office hours.</p>
+    </div>
+
+    <h2>What Is a Voice Channel?</h2>
+    <p>Voice channels are the alternative to text <a href="glossary.html#channel">channels</a>. They are a room inside a <a href="glossary.html#server">server</a> which enables real-time audio communication between users. These rooms are available 24/7, can be accessed by any user with the appropriate <a href="glossary.html#role">role</a>, and require zero scheduling or prior setup for each meeting.</p>
+    <p>Voice channels are identifiable on the channels panel by the speaker icon before their name, as opposed to the # symbol which identifies text channels.</p>
+    <img src="assets/chapter 6 what is a voice channel right after the words by the speaker icon before their name.png" alt="Voice channel with speaker icon" style="max-width: 100%; height: auto; border-radius: var(--radius-md); border: 1px solid var(--border); margin: 16px 0 8px 0;">
+    <div class="img-caption">A voice channel identified by the speaker icon in the server's channel list.</div>
+
+
+    <h3>Voice Channels vs. Zoom</h3>
+    <p>If you are used to Zoom, here is the key difference: a Zoom meeting requires multiple steps of setup. Discord's voice channels are more like conference rooms which are always open, making them ideal for drop-in style office hours.</p>
+
+    <h2>Joining a Voice Channel</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-body"><p>Ensure you are in the correct server. If a voice channel exists you can locate it in the channels list panel, identifiable by a speaker icon and channel name.</p></div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-body"><p>If users are in the voice channel, their usernames are visible under the voice channel name. Empty voice channels lack any usernames. Click the voice channel name to join it.</p></div>
+      </div>
+    </div>
+    <img src="assets/chapter 6 joining a voice channel between steps 2 and 3.png" alt="Clicking voice channel to join" style="max-width: 100%; height: auto; border-radius: var(--radius-md); border: 1px solid var(--border); margin: 16px 0 8px 0;">
+    <div class="img-caption">Clicking on a voice channel name to join the audio conversation.</div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-body"><p>An audible beep, as well as a "Voice Connected" label above the audio controls on the bottom of your screen confirm you've joined.</p></div>
+      </div>
+    </div>
+    <img src="assets/chapter 6 joining a voice channel after step 3.png" alt="Voice Connected confirmation" style="max-width: 100%; height: auto; border-radius: var(--radius-md); border: 1px solid var(--border); margin: 16px 0 8px 0;">
+    <div class="img-caption">The "Voice Connected" status appearing above your user controls bar.</div>
+
+
+    <div class="callout tip">
+      <div class="callout-icon">🎧</div>
+      <div class="callout-body">
+        <div class="callout-title">Tip: First Time Using Voice?</div>
+        <p>If you have not previously joined a voice channel, Discord may request permission to use your device's audio equipment. Click "allow."</p>
+      </div>
+    </div>
+
+    <h2>Audio Controls in a Voice Channel</h2>
+    <p>Your audio controls are managed via the user controls bar on the bottom left of your screen (See <a href="ch2.html">Chapter 2: The User Controls Bar</a>).</p>
+
+    <h3>Muting and Unmuting Yourself</h3>
+    <ul class="checklist">
+      <li><strong><a href="glossary.html#mute">Mute</a>:</strong> Clicking the microphone icon in the user controls bar adds a red slash over the icon, indicating a successful mute.</li>
+    </ul>
+    <img src="assets/chapter 6 muting and unmuting yourself right under the mute instructions.png" alt="Unmuted microphone icon" style="max-width: 100%; height: auto; border-radius: var(--radius-md); border: 1px solid var(--border); margin: 16px 0 8px 0;">
+    <div class="img-caption">The microphone icon without a slash when your audio is being transmitted.</div>
+
+    <ul class="checklist">
+      <li><strong>Unmute:</strong> Click the microphone icon in the user controls bar. The red slash disappears, indicating a successful unmute.</li>
+    </ul>
+    <img src="assets/chapter 6 muting and unmuting yourself right under the unmute instructions.png" alt="Muted microphone icon" style="max-width: 100%; height: auto; border-radius: var(--radius-md); border: 1px solid var(--border); margin: 16px 0 8px 0;">
+    <div class="img-caption">The microphone icon showing a red slash when you are successfully muted.</div>
+
+
+    <div class="callout tip">
+      <div class="callout-icon">🎤</div>
+      <div class="callout-body">
+        <div class="callout-title">Best Practice</div>
+        <p>Stay muted when not actively talking. Background noise like from a pet or a fan may distract other users.</p>
+      </div>
+    </div>
+
+    <h3>Deafening and Undeafening</h3>
+    <ul class="checklist">
+      <li><strong><a href="glossary.html#deafen">Deafen</a>:</strong> Click the headphone icon in the user controls bar. A red slash appears over the headphone and microphone icons, indicating you can no longer hear others, and have been automatically muted.</li>
+      <li><strong>Undeafen:</strong> Click the headphone icon again. Your audio will be restored.</li>
+    </ul>
+    <img src="assets/chapter 6 muting and unmuting yourself right under the deafen instructions.png" alt="Deafened state" style="max-width: 100%; height: auto; border-radius: var(--radius-md); border: 1px solid var(--border); margin: 16px 0 8px 0;">
+    <div class="img-caption">The deafened state, which also automatically mutes your own microphone.</div>
+
+    <p>Use deafening when you want to step away from the voice chat briefly without fully disconnecting.</p>
+
+    <h3>Adjusting the Volume of Other Participants</h3>
+    <p>Sometimes, another user's audio can come across too loud or too quiet on your device. You can specifically adjust their volume without affecting other users.</p>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-body"><p>Right click the user's name from the list of users in the voice channel.</p></div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-body"><p>An interaction menu including many options such as mute, block, and User Volume appears. Use the sliding scale to increase or decrease volume.</p></div>
+      </div>
+    </div>
+    <img src="assets/chapter 6 adjusting the volume of others after step 2.png" alt="User volume slider" style="max-width: 100%; height: auto; border-radius: var(--radius-md); border: 1px solid var(--border); margin: 16px 0 8px 0;">
+    <div class="img-caption">Adjusting the volume for a specific user through the right-click interaction menu.</div>
+
+
+    <div class="callout info">
+      <div class="callout-icon">ℹ️</div>
+      <div class="callout-body">
+        <div class="callout-title">Info: Local Volume Adjustment</div>
+        <p>User specific volume changes only apply to your own audio experience. No other users, including the subject of your volume change, will be alerted.</p>
+      </div>
+    </div>
+
+    <h2>Sharing Your Screen</h2>
+    <p>Another feature Discord <em>shares</em> with popular communication platforms is screen sharing. This will become useful if you ever need to present visual information or demonstrate something on your computer like code or math steps.</p>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-body"><p>Join a voice channel.</p></div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-body"><p>In the user control bar, click the icon resembling a monitor with an arrow in it.</p></div>
+      </div>
+    </div>
+    <img src="assets/chapter 6 sharing your screen between steps 2 and 3.png" alt="Screen share button" style="max-width: 100%; height: auto; border-radius: var(--radius-md); border: 1px solid var(--border); margin: 16px 0 8px 0;">
+    <div class="img-caption">The "Share Your Screen" button located in the user controls section.</div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-body"><p>A dialog box asking you what you want to share appears. You can share a specific application window or share your entire screen.</p></div>
+      </div>
+    </div>
+    <img src="assets/chapter 6 sharing your screeen after step 3.png" alt="Screen share dialog" style="max-width: 100%; height: auto; border-radius: var(--radius-md); border: 1px solid var(--border); margin: 16px 0 8px 0;">
+    <div class="img-caption">The screen share dialog for choosing a specific window or your entire screen.</div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-body"><p>Select your preferred option and click Share Screen.</p></div>
+      </div>
+    </div>
+
+    <div class="callout warning">
+      <div class="callout-icon">⚠️</div>
+      <div class="callout-body">
+        <div class="callout-title">Warning: Before You Share</div>
+        <p>Sharing your "entire screen" can cause unintended content to be shared such as notifications, other open apps or your desktop. Close anything you don't want visible to others.</p>
+      </div>
+    </div>
+
+    <h3>Stopping Screen Share</h3>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-body"><p>Above the user control bar, a screen share control bar is visible. On the left of the control bar, find the end stream button resembling a monitor with an X icon in it.</p></div>
+      </div>
+    </div>
+    <img src="assets/chapter 6 stopping a screenshare between step 1 and 2.png" alt="End screen share button" style="max-width: 100%; height: auto; border-radius: var(--radius-md); border: 1px solid var(--border); margin: 16px 0 8px 0;">
+    <div class="img-caption">The button used to end your current screen share session.</div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-body"><p>Click the end screen share button.</p></div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-body"><p>The screen share control bar disappears, confirming the screen share has ended.</p></div>
+      </div>
+    </div>
+
+    <h2>Leaving a Voice Channel</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-body"><p>Click the phone icon in the voice connection panel on the user control bar at the bottom-left of the screen.</p></div>
+      </div>
+    </div>
+    <img src="assets/chapter 6 leaving a voice channel after step 1.png" alt="Disconnect button" style="max-width: 100%; height: auto; border-radius: var(--radius-md); border: 1px solid var(--border); margin: 16px 0 8px 0;">
+    <div class="img-caption">The Disconnect button used to leave a voice channel.</div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-body"><p>An audible beep sound confirms you've been disconnected. Also notice that your name has been removed from the user list in the voice channel.</p></div>
+      </div>
+    </div>
+
+    <div class="chapter-nav">
+      <a href="ch5.html" class="chapter-nav-btn">
+        <div>
+          <span class="label">← Previous</span>
+          <span class="title">Ch 5 · Direct Messages</span>
+        </div>
+      </a>
+      <a href="ch7.html" class="chapter-nav-btn next">
+        <div>
+          <span class="label">Next Chapter</span>
+          <span class="title">Ch 7 · Notifications & Settings →</span>
+        </div>
+      </a>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
